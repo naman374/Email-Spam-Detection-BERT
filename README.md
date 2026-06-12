@@ -184,13 +184,18 @@ The model was trained on **80,000 labeled emails** sampled from a dataset contai
 
 ---
 
-## Future Improvements
+## Streamlit Web App
 
-* Deploy using Flask/FastAPI
-* Build a web interface
-* Support real-time email classification
-* Experiment with larger transformer models
-* Hyperparameter tuning
+A simple web interface was built using Streamlit that allows users to paste email content and classify it as:
+
+- Spam
+- Not Spam
+
+Run locally:
+
+```bash
+
+streamlit run app.py
 
 ---
 
