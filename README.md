@@ -164,7 +164,23 @@ The notebook will:
 
 ## Results
 
-The fine-tuned BERT model achieved **98.99% accuracy** on a held-out test set of **16,000 emails**, demonstrating strong performance for email spam classification.
+The fine-tuned BERT model achieved **98.99% accuracy** on a held-out test set of **16,000 emails**, demonstrating excellent performance for email spam classification.
+
+### Training Loss Curve
+
+![Loss Curve](loss_curve.png)
+
+### Evaluation Metrics
+
+| Metric    | Score   |
+| --------- | ------- |
+| Accuracy  | 98.99%  |
+| Precision | 99%     |
+| Recall    | 98–100% |
+| F1 Score  | 99%     |
+
+The model was trained on **80,000 labeled emails** sampled from a dataset containing **83,448 email messages**.
+
 
 ---
 
