@@ -195,7 +195,18 @@ Run locally:
 
 streamlit run app.py
 
-streamlit run app.py
+## Streamlit Web Application
+
+The trained BERT model was integrated into a Streamlit web application that enables real-time email spam detection.
+
+### Spam Email Detection Example
+
+![Spam Detection](spam.png)
+
+### Legitimate Email Detection Example
+
+![Not Spam Detection](not_a_spam.png)
+
 
 ---
 
