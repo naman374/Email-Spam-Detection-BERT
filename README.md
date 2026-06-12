@@ -184,16 +184,16 @@ The model was trained on **80,000 labeled emails** sampled from a dataset contai
 
 ---
 
-## Streamlit Web App
+Streamlit Web App
 
 A simple web interface was built using Streamlit that allows users to paste email content and classify it as:
 
-- Spam
-- Not Spam
+Spam
+Not Spam
 
 Run locally:
 
-```bash
+streamlit run app.py
 
 streamlit run app.py
 
